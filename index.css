@@ -1,529 +1,738 @@
-            body {
-                font-family: 'Poppins', sans-serif;
-            }
-            
-            .custom-footer {
-                background-color: #212529;
-                margin: 0%;
-                padding: 0%;
-            }
-            
-            @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
-            .image-wrap {
-                position: relative;
-                height: 100vh;
-                overflow-x: hidden;
-            }
-            
-            .banner-content {
-                position: absolute;
-                z-index: 99999;
-                top: 28%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 80%;
-                text-align: center;
-                font-size: 1.5em;
-                color: 2B3B3A;
-                line-height: 1.5;
-                font: italic extra-bold 68px/71px Georgia, serif;
-            }
-            
-            .img-content img {
-                width: 100%;
-                height: 100vh;
-                display: block;
-            }
-            
-            .overlay {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                opacity: .8;
-                z-index: 999;
-                height: 100%;
-            }
-            
-            .home-testimonial-bottom {
-                background-color: #f8f8f8;
-                transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-                margin-top: 20px;
-                margin-bottom: 0px;
-                position: relative;
-                height: 130px;
-                top: 190px
-            }
-            
-            .home-testimonial h3 {
-                color: var(--orange);
-                font-size: 14px;
-                font-weight: 500;
-                text-transform: uppercase
-            }
-            
-            .home-testimonial h2 {
-                color: white;
-                font-size: 28px;
-                font-weight: 700
-            }
-            
-            .testimonial-inner {
-                position: relative;
-                top: -174px
-            }
-            
-            .testimonial-pos {
-                position: relative;
-                top: 24px
-            }
-            
-            .testimonial-inner .tour-desc {
-                border-radius: 5px;
-                padding: 40px
-            }
-            
-            .color-grey-3 {
-                font-family: "Montserrat", Sans-serif;
-                font-size: 14px;
-                color: #6c83a2
-            }
-            
-            .testimonial-inner img.tm-people {
-                width: 60px;
-                height: 60px;
-                -webkit-border-radius: 50%;
-                border-radius: 50%;
-                -o-object-fit: cover;
-                object-fit: cover;
-                max-width: none
-            }
-            
-            .link-name {
-                font-family: "Montserrat", Sans-serif;
-                font-size: 14px;
-                color: #6c83a2
-            }
-            
-            .link-position {
-                font-family: "Montserrat", Sans-serif;
-                font-size: 12px;
-                color: #6c83a2
-            }
-            
-            .subscribe-area {
-                background-image: linear-gradient(to top, #B9933f 0%, #B9933f 100%);
-            }
-            
-            .pb-50 {
-                padding-bottom: 50px;
-            }
-            
-            .pt-70 {
-                padding-top: 70px;
-            }
-            
-            .mb-15 {
-                margin-bottom: 15px;
-            }
-            
-            .subscribe-text span {
-                font-size: 12px;
-                font-weight: 700;
-                color: #fff;
-                letter-spacing: 5px;
-            }
-            
-            .subscribe-text h2 {
-                color: #fff;
-                font-size: 36px;
-                font-weight: 300;
-                margin-bottom: 0;
-                margin-top: 6px;
-            }
-            
-            .subscribe-wrapper {
-                overflow: hidden;
-            }
-            
-            .mb-15 {
-                margin-bottom: 15px;
-            }
-            
-            .subscribe-form {}
-            
-            .subscribe2-wrapper .subscribe-form input {
-                background: none;
-                border: 1px solid #fff;
-                border-radius: 30px;
-                color: #fff;
-                display: inline-block;
-                font-size: 15px;
-                font-weight: 300;
-                height: 57px;
-                margin-right: 17px;
-                padding-left: 35px;
-                width: 70%;
-                cursor: pointer;
-            }
-            
-            .subscribe2-wrapper .subscribe-form button {
-                background: #ffff;
-                border: none;
-                border-radius: 30px;
-                color: #4b5d73;
-                display: inline-block;
-                font-size: 18px;
-                font-weight: 400;
-                line-height: 1;
-                padding: 18px 46px;
-                transition: all 0.3s ease 0s;
-            }
-            
-            .subscribe2-wrapper .subscribe-form button i {
-                font-size: 18px;
-                padding-left: 5px;
-            }
-            
-            .cards-wrapper {
-                display: flex;
-                justify-content: center;
-            }
-            
-            .card img {
-                max-width: 100%;
-                max-height: 100%;
-            }
-            
-            .card {
-                margin: 0 0.5em;
-                box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-                border: none;
-                border-radius: 0;
-            }
-            
-            .carousel-inner {
-                padding: 1em;
-            }
-            
-            .carousel-control-prev,
-            .carousel-control-next {
-                background-color: #e1e1e1;
-                width: 5vh;
-                height: 5vh;
-                border-radius: 50%;
-                top: 50%;
-                transform: translateY(-50%);
-            }
-            
-            @media (min-width: 768px) {
-                .card img {
-                    height: 11em;
-                }
-            }
-            
-            .container-flex {
-                display: flex;
-                max-width: 100%;
-            }
-            
-            .container-flex .text-container {
-                flex: 1;
-                padding: 20px;
-            }
-            
-            .container-flex .image-container {
-                position: relative;
-                flex: 1;
-            }
-            
-            .container-flex .image-container img {
-                width: 100%;
-                border-top-right-radius: 50%;
-                border-bottom-right-radius: 50%;
-            }
-            
-            .container-flex .image-container2 img {
-                width: 100%;
-                border-radius: 50% 50% 0 0;
-            }
-            
-            .container-flex .image-container:after {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: -20px;
-                height: 100%;
-                width: 40px;
-                background-color: white;
-            }
-            
-            .container-flex .image-container2:after {
-                content: "";
-                position: absolute;
-                top: 0;
-                right: -20px;
-                height: 100%;
-                width: 40px;
-                background-color: white;
-            }
-            
-            .nav-item {
-                margin-left: 40px;
-            }
-            
-            .navbar-nav {
-                float: right;
-            }
-            
-            .text-container {
-                margin: auto;
-            }
-            
-            .btn-primary {
-                background-color: #B9933f;
-                outline: white;
-                /* Add any additional styles you want for the button */
-            }
-            
-            .btn-primary:hover {
-                background-color: white;
-                color: #B9933f;
-            }
-            
-            .banner-content h1 {
-                font-family: 'Poppins';
-                font-style: italic;
-                font-weight: 700;
-                font-size: 68.0796px;
-                line-height: 71px;
-                /* identical to box height, or 105% */
-                letter-spacing: 0.04em;
-                text-transform: uppercase;
-                color: #2B3B3A;
-            }
-            
-            .banner-content h2 {
-                font-family: 'Poppins';
-                font-style: italic;
-                font-weight: 500;
-                font-size: 51.6923px;
-                line-height: 62px;
-                /* or 120% */
-                text-transform: uppercase;
-                color: #2B3B3A;
-            }
-            
-            .nav-item {
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 16px;
-                /* identical to box height, or 100% */
-                display: flex;
-                align-items: center;
-                text-transform: uppercase;
-                color: #2B3B3A;
-            }
-            
-            .EH {
-                color: #B9933f;
-            }
-            
-            .card-title {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 14.2491px;
-                line-height: 17px;
-                /* or 120% */
-                display: flex;
-                align-items: center;
-                color: #2B3B3A;
-            }
-            
-            .text-white {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
-                /* or 162% */
-                color: #FFFFFF
-            }
-            
-            .text-uppercase {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 24px;
-                line-height: 36px;
-                /* identical to box height */
-                text-transform: capitalize;
-                color: #FAFAFA;
-            }
-            
-            .footercontent {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
-                /* or 162% */
-                letter-spacing: 0.01em;
-                text-transform: capitalize;
-                color: #FAFAFA;
-            }
-            
-            .content-left {
-                text-align: left;
-            }
-            
-            .content-right {
-                text-align: right;
-            }
-            
-            .home-testimonial {
-                padding-bottom: 8%;
-            }
-            
-            .custom-news {
-                padding-bottom: 3%;
-            }
-            
-            .container-fluid {
-                background-color: #B9933f;
-            }
-            
-            .content-left {
-                text-align: left;
-                padding-left: 15px;
-                /* Adjust the value as needed */
-            }
-            
-            .content-right {
-                text-align: right;
-                padding-right: 15px;
-                /* Adjust the value as needed */
-            }
-            
-            .image-container {
-                display: flex;
-                justify-content: space-between;
-                background: #fffaee;
-            }
-            
-            .image-container img:first-child {
-                margin-left: 5px;
-                /* Adjust the value as needed */
-            }
-            
-            .image-container img:last-child {
-                margin-right: 5px;
-                /* Adjust the value as needed */
-            }
-            
-            .row1 {
-                background-color: #fffaee;
-            }
-            
-            .custom-browse {
-                background: #fffaee;
-            }
-            
-            .custom-buy {
-                width: max-content;
-            }
-            
-            .container-flex .text-container {
-                float: right;
-            }
-            
-            .newsletter1 {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 40px;
-                line-height: 60px;
-                /* identical to box height */
-                /* White */
-                color: #FFFFFF;
-            }
-            
-            .newsletter2 {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 27px;
-                /* identical to box height */
-                /* White */
-                color: #FFFFFF;
-            }
-            
-            .testtext {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 11.97px;
-                line-height: 15px;
-                /* or 125% */
-                display: flex;
-                align-items: center;
-                color: #000000;
-            }
-            
-            .testimonial {
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 26px;
-                line-height: 42px;
-                /* or 162% */
-                display: flex;
-                align-items: center;
-                text-transform: capitalize;
-                color: #2B3B3A;
-            }
-            
-            .dwarka {
-                margin-left: 25px;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 26px;
-                line-height: 31px;
-                /* or 120% */
-                display: flex;
-                align-items: center;
-                color: #2B3B3A;
-            }
-            
-            .expressway {
-                margin-left: 25px;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 900;
-                font-size: 26px;
-                line-height: 42px;
-                /* or 162% */
-                display: flex;
-                align-items: center;
-                text-transform: capitalize;
-                color: #2B3B3A;
-            }
-            
-            .con {
-                margin-left: 25px;
-                font-family: 'Poppins';
-                font-style: normal;
-                font-weight: 300;
-                font-size: 16px;
-                line-height: 27px;
-                /* or 170% */
-                align-items: center;
-                color: #757575;
-                margin-bottom: 0px;
-            }
-            
-            .custom-button {
-                outline: #e1e1e1;
-            }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-footer {
+    background-color: #212529;
+    margin: 0%;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+.image-wrap {
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.banner-content {
+    position: absolute;
+    z-index: 99999;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    color: 2B3B3A;
+    line-height: 1.5;
+    font: italic extra-bold 68px/71px Georgia, serif;
+}
+
+.img-content img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: .8;
+    z-index: 999;
+    height: 100%;
+}
+
+.home-testimonial-bottom {
+    background-color: #f8f8f8;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px
+}
+
+.home-testimonial h3 {
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.home-testimonial h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700
+}
+
+.testimonial-inner {
+    position: relative;
+    top: -174px
+}
+
+.testimonial-pos {
+    position: relative;
+    top: 24px
+}
+
+.testimonial-inner .tour-desc {
+    border-radius: 5px;
+    padding: 40px
+}
+
+.color-grey-3 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.testimonial-inner img.tm-people {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+
+.link-name {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2
+}
+
+.link-position {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+
+.subscribe-area {
+    background-image: linear-gradient(to top, #B9933f 0%, #B9933f 100%);
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.subscribe-text span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.subscribe-text h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.subscribe-wrapper {
+    overflow: hidden;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.subscribe-form {}
+
+.subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    height: 57px;
+    margin-right: 17px;
+    padding-left: 35px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.subscribe2-wrapper .subscribe-form button {
+    background: #ffff;
+    border: none;
+    border-radius: 30px;
+    color: #4b5d73;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 18px 46px;
+    transition: all 0.3s ease 0s;
+}
+
+.subscribe2-wrapper .subscribe-form button i {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
+}
+
+.container-flex {
+    display: flex;
+    max-width: 100%;
+}
+
+.container-flex .text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.container-flex .image-container {
+    position: relative;
+    flex: 1;
+}
+
+.container-flex .image-container img {
+    width: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.container-flex .image-container2 img {
+    width: 100%;
+    border-radius: 50% 50% 0 0;
+}
+
+.container-flex .image-container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -20px;
+    height: 100%;
+    width: 40px;
+    background-color: white;
+}
+
+.container-flex .image-container2:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -20px;
+    height: 100%;
+    width: 40px;
+    background-color: white;
+}
+
+.nav-item {
+    margin-left: 40px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.text-container {
+    margin: auto;
+}
+
+.btn-primary {
+    background-color: #B9933f;
+    outline: white;
+    /* Add any additional styles you want for the button */
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: #B9933f;
+}
+
+.banner-content h1 {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 68.0796px;
+    line-height: 71px;
+    /* identical to box height, or 105% */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #2B3B3A;
+}
+
+.banner-content h2 {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 51.6923px;
+    line-height: 62px;
+    /* or 120% */
+    text-transform: uppercase;
+    color: #2B3B3A;
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #2B3B3A;
+}
+
+.EH {
+    color: #B9933f;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.2491px;
+    line-height: 17px;
+    /* or 120% */
+    display: flex;
+    align-items: center;
+    color: #2B3B3A;
+}
+
+.text-white {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #FFFFFF
+}
+
+.text-uppercase {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: #FAFAFA;
+}
+
+.footercontent {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FAFAFA;
+}
+
+.content-left {
+    text-align: left;
+}
+
+.content-right {
+    text-align: right;
+}
+
+.home-testimonial {
+    padding-bottom: 8%;
+}
+
+.custom-news {
+    padding-bottom: 3%;
+}
+
+.container-fluid {
+    background-color: #B9933f;
+}
+
+.content-left {
+    text-align: left;
+    padding-left: 15px;
+    /* Adjust the value as needed */
+}
+
+.content-right {
+    text-align: right;
+    padding-right: 15px;
+    /* Adjust the value as needed */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    background: #fffaee;
+}
+
+.image-container img:first-child {
+    margin-left: 5px;
+    /* Adjust the value as needed */
+}
+
+.image-container img:last-child {
+    margin-right: 5px;
+    /* Adjust the value as needed */
+}
+
+.row1 {
+    background-color: #fffaee;
+}
+
+.custom-browse {
+    background: #fffaee;
+}
+
+.custom-buy {
+    width: max-content;
+}
+
+.container-flex .text-container {
+    float: right;
+}
+
+.newsletter1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    /* White */
+    color: #FFFFFF;
+}
+
+.newsletter2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    /* White */
+    color: #FFFFFF;
+}
+
+.testtext {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.97px;
+    line-height: 15px;
+    /* or 125% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.testimonial {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 42px;
+    /* or 162% */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B3B3A;
+}
+
+.dwarka {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* or 120% */
+    display: flex;
+    align-items: center;
+    color: #2B3B3A;
+}
+
+.expressway {
+    margin-left: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    /* or 162% */
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2B3B3A;
+}
+
+.con {
+    margin-left: 25px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 170% */
+    align-items: center;
+    color: #757575;
+    margin-bottom: 0px;
+}
+
+.custom-button {
+    outline: #e1e1e1;
+}
+
+.bbpt {
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* or 120% */
+    display: flex;
+    align-items: center;
+    color: #2B3B3A;
+}
+
+.hand {
+    margin-left: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 170% */
+    display: flex;
+    align-items: center;
+    color: #757575;
+}
+
+.cardcontainer {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+
+.cardcontainer:hover {
+    box-shadow: 0 0 45px gray;
+}
+
+.photo {
+    height: 300px;
+    width: 100%;
+}
+
+.photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.txt1 {
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+.content {
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -33px;
+}
+
+.photos {
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    background: #B9933F;
+    border-radius: 0px 39.4px 39.4px 0px;
+    color: white;
+    position: relative;
+    top: -30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.txt4 {
+    font-size: 27px;
+    position: relative;
+    top: 33px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.2491px;
+    line-height: 17px;
+    /* or 120% */
+    display: flex;
+    align-items: center;
+    color: #2B3B3A;
+}
+
+.txt2 {
+    position: relative;
+    top: 3px;
+}
+
+.txt8 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11.3993px;
+    line-height: 17px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    color: #757575;
+    padding: 0%;
+    margin: 0%;
+}
+
+.cardcontainer:hover>.photo {
+    height: 200px;
+    animation: move1 0.5s ease both;
+}
+
+@keyframes move1 {
+    0% {
+        height: 300px
+    }
+    100% {
+        height: 200px
+    }
+}
+
+.cardcontainer:hover>.content {
+    height: 200px;
+}
+
+.footer {
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    position: relative;
+    top: -15px;
+}
+
+.btn {
+    position: relative;
+    top: 20px;
+}
+
+#heart {
+    cursor: pointer;
+}
+
+.like {
+    float: right;
+    font-size: 22px;
+    position: relative;
+    top: 20px;
+    color: #333333;
+}
+
+.fa-gratipay {
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.fa-gratipay:hover {
+    color: #E74C3C;
+}
+
+.txt3 {
+    color: gray;
+    position: relative;
+    top: 18px;
+    font-size: 14px;
+}
+
+.comments {
+    float: right;
+    cursor: pointer;
+}
+
+.fa-clock,
+.fa-comments {
+    margin-right: 7px;
+}
+
+.txt6 {
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.txt7 {
+    text-align: center;
+    padding-top: 0%;
+    margin-top: 0%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15.77px;
+    line-height: 17px;
+    /* or 108% */
+    color: #2B3B3A;
+}
+
+.phototop {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11.3993px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
