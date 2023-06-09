@@ -93,7 +93,7 @@
     
     .container-overlay .vertical-line {
         width: 2px;
-        background-color: F4F4F4;
+        background-color: grey;
         /* Set color for the vertical line */
         margin: 4px;
         padding-top: 3px;
