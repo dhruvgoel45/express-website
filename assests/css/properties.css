@@ -273,3 +273,7 @@
         margin: 0%;
         padding: 0%;
     }
+    
+    .section-content p {
+        margin-bottom: 0;
+    }
