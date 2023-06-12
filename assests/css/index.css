@@ -2,10 +2,39 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-link active {
+    color: #B9933F;
+}
+
+.custom-input {
+    border-radius: 0.25rem;
+}
+
+.custom-button {
+    border-radius: 0.25rem;
+}
+
 .custom-footer {
     background-color: #212529;
     margin: 0%;
     padding: 0%;
+}
+
+.container-overlay {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.container-overlay .section {
+    flex: 1;
+    margin: 2px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
@@ -735,4 +764,65 @@ body {
     font-size: 11.3993px;
     line-height: 17px;
     color: #FFFFFF;
+    margin-top: 2px;
+}
+
+.f1 {
+    width: 365px;
+    height: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5934px;
+    line-height: 20px;
+    /* or 120% */
+    margin-left: 6px;
+    display: flex;
+    align-items: center;
+    /* color: #2B3B3A; */
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.d1 {
+    margin-left: 10px;
+    width: 372.86px;
+    /* height: 26.54px; */
+    left: 16.59px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.6173px;
+    line-height: 27px;
+    /* identical to box height, or 170% */
+    display: flex;
+    align-items: center;
+    color: #757575;
+}
+
+.btnm {
+    border: none;
+    margin-left: 2px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+    background-color: white;
+    width: 180px;
+    height: 20px;
+    left: 16.59px;
+    top: 206.9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.5934px;
+    line-height: 20px;
+    /* identical to box height, or 120% */
+    display: flex;
+    align-items: center;
+    color: #B9933F;
 }
